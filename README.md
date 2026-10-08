@@ -8,4 +8,4 @@ The application listens on port 8000 and returns a text response when accessed o
 
 ## Verification
 
-The application can be verified by sending an HTTP request to port 8000 from the Docker host.
+The application can be verified from the Docker host by running curl against localhost on port 8080, which maps to port 8000 in the container.
